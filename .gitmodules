@@ -1,0 +1,4 @@
+[submodule "Kicad-Library"]
+	path = Kicad-Library
+	url = git@github.com:darkdragon276/Kicad-Library.git
+	branch = master
