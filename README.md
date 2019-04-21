@@ -5,27 +5,27 @@ thesis's hardware
 
 ### Schematics
 
-![DS-ESP32 SCHEMATIC REVIEW](assets/demo/schematic.jpg)(assets/demo/schematic.svg)
+[![DS-ESP32 SCHEMATIC REVIEW](assets/demo/schematic.jpg)](assets/demo/schematic.svg)
 
 ### PCB Layout
 
 #### Top side
 
-![DS-ESP32 PCB REVIEW](assets/pcb-top.jpg)
+![DS-ESP32 PCB REVIEW](assets/pcb-top.png)
 
 #### Back side
 
-![DS-ESP32 PCB REVIEW](assets/pcb-bottom.jpg)
+![DS-ESP32 PCB REVIEW](assets/pcb-bottom.png)
 
 ### 3D
 
 #### Top side
 
-![DS-ESP32 3D REVIEW](assets/3d-top.jpg)
+![DS-ESP32 3D REVIEW](assets/3d-top.png)
 
 #### Back side
 
-![DS-ESP32 3D REVIEW](assets/3d-bottom.jpg)
+![DS-ESP32 3D REVIEW](assets/3d-bottom.png)
 
 ### Gerber
 
