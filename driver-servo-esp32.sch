@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Driver Servo ESP32PICO"
+Date "2019-04-21"
+Rev "Ver1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1783,13 +1783,13 @@ Wire Wire Line
 	6680 3990 6685 3990
 $Comp
 L OutLine:OutLine OL1
-U 0 0 5CD13F59
+U 1 1 5CD13F59
 P 6350 5150
 F 0 "OL1" H 6290 5285 50  0000 L CNN
 F 1 "Logo" H 6355 5015 50  0000 C CNN
 F 2 "footprints:Nam_logo" H 6350 5150 50  0001 C CNN
 F 3 "" H 6350 5150 50  0001 C CNN
-	0    6350 5150
+	1    6350 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
