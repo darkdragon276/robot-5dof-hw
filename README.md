@@ -5,7 +5,7 @@ thesis's hardware
 
 ### Schematics
 
-![DS-ESP32 SCHEMATIC REVIEW](assets/demo/schematic.jpg)(schematic.svg)
+![DS-ESP32 SCHEMATIC REVIEW](assets/demo/schematic.jpg)(assets/demo/schematic.svg)
 
 ### PCB Layout
 
