@@ -1,6 +1,6 @@
-update=Chủ nhật, 21 Tháng 4 Năm 2019 12:16:49 +07
+update=Thứ ba, 07 Tháng 5 Năm 2019 11:33:54 +07
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=asset/demo/
+PlotDirectoryName=assets/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
