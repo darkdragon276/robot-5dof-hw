@@ -5,18 +5,17 @@ thesis's hardware
 
 ### Schematics
 
-[![DS-ESP32 SCHEMATIC REVIEW](assets/demo/schematic.png)](assets/demo/schematic.svg)
+[![DS-ESP32 SCHEMATIC REVIEW](assets/demo/schematic.png)](assets/demo/schematic.pdf)
 
 ### PCB Layout
 
 #### Top side
 
-![DS-ESP32 PCB REVIEW](assets/demo/pcb-top.png)
+[![DS-ESP32 PCB REVIEW](assets/demo/pcb-top.png)](assets/demo/pcb-top.svg)
 
 #### Back side
 
-![DS-ESP32 PCB REVIEW](assets/demo/pcb-bottom.png)
-
+[![DS-ESP32 PCB REVIEW](assets/demo/pcb-bottom.png)](assets/demo/pcb-bottom.svg)
 ### 3D
 
 #### Top side
