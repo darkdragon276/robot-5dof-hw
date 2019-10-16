@@ -16,15 +16,18 @@ thesis's hardware
 #### Back side
 
 [![DS-ESP32 PCB REVIEW](assets/demo/pcb-bottom.png)](assets/demo/pcb-bottom.svg)
+
 ### 3D
 
 #### Top side
 
-![DS-ESP32 3D REVIEW](assets/demo/3d-top.png)
+[![DS-ESP32 3D REVIEW](assets/demo/3d-top.png)](assets/demo/3d.step)
+
+
 
 #### Back side
 
-![DS-ESP32 3D REVIEW](assets/demo/3d-bottom.png)
+[![DS-ESP32 3D REVIEW](assets/demo/3d-bottom.png)](assets/demo/3d.step)
 
 ### Gerber
 

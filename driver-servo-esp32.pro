@@ -1,4 +1,4 @@
-update=Thứ tư, 08 Tháng 5 Năm 2019 10:32:03 +07
+update=Wed 16 Oct 2019 12:15:09 PM +07
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=assets/demo/
+PlotDirectoryName=assets/demo/schematic.pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

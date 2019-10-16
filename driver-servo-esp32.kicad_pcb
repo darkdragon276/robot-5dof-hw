@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.1-8be2ce7~80~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -1018,9 +1018,9 @@
     (pad 2 thru_hole oval (at 0 5.8) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
     (pad 3 thru_hole oval (at 4.8 3 90) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_Wuerth_6941xx301002.wrl
+    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.9 1.1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1590,10 +1590,8 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 1 GND))
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
-      (net 6 +5V))
+    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2929,7 +2927,7 @@
   (gr_line (start 123.3297 97.5) (end 123.3297 91.5797) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 92 97.5) (end 123.3297 97.5) (layer Edge.Cuts) (width 0.05) (tstamp 5CBF4D16))
   (gr_line (start 91.9988 147.5) (end 92 97.5) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 147 147.5) (end 92 147.5) (layer Edge.Cuts) (width 0.05) (tstamp 5CBC660D))
+  (gr_line (start 147 147.5) (end 91.9988 147.5) (layer Edge.Cuts) (width 0.05) (tstamp 5CBC660D))
   (gr_line (start 147 91.5797) (end 147 147.5) (layer Edge.Cuts) (width 0.05))
 
   (via (at 127.205 139.1158) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5CBE2F75))
@@ -3706,7 +3704,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 108.0262 119.38) (xy 110.0582 119.38) (xy 114.3254 118.237) (xy 116.3574 118.237) (xy 117.094 118.999)
@@ -3728,7 +3726,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 119.4054 119.2022) (xy 119.6594 118.999) (xy 120.9294 118.999) (xy 121.1834 119.2022) (xy 121.1834 121.539)
@@ -3746,7 +3744,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 128.8669 111.2901) (xy 129.8702 111.2901) (xy 132.2578 109.9312) (xy 133.223 109.9312) (xy 133.3754 110.109)
@@ -3766,7 +3764,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 128.8669 109.7915) (xy 129.8702 109.7915) (xy 132.3594 108.4072) (xy 133.223 108.4072) (xy 133.3881 108.5723)
@@ -3786,7 +3784,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 126.9873 108.6739) (xy 126.9873 107.442) (xy 126.111 106.7816) (xy 126.111 105.7783) (xy 126.365 105.7783)
@@ -3806,7 +3804,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 98.6028 120.8786) (xy 98.6028 99.6188) (xy 98.9584 98.933) (xy 101.0666 98.933) (xy 101.3968 99.6188)
@@ -3830,7 +3828,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 124.9571 138.3284) (xy 124.9571 137.5156) (xy 125.2111 137.5156) (xy 125.6302 137.0965) (xy 125.6302 136.8425)
@@ -3854,7 +3852,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 121.4265 138.7348) (xy 122.0742 138.7348) (xy 122.506 139.3698) (xy 122.506 139.8143) (xy 122.0615 139.8143)
@@ -3885,7 +3883,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 128.2446 107.6706) (xy 128.4605 107.2769) (xy 127.7493 107.2769) (xy 127.9906 107.6706)
@@ -3896,7 +3894,7 @@
     (priority 1)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 98.60788 102.44836) (xy 98.6028 99.64674) (xy 98.95586 98.93554) (xy 101.06914 98.933) (xy 101.39426 99.61372)
@@ -3913,7 +3911,7 @@
   (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5CD3383D) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.2)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 92.125 97.825) (xy 147.075 97.775) (xy 147 147.5) (xy 92 147.5)
@@ -4666,7 +4664,7 @@
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5CD3383A) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.2)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 92 97.8) (xy 147 97.75) (xy 147 147.5) (xy 92 147.5)
