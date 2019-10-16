@@ -1411,8 +1411,6 @@ Wire Wire Line
 	8010 1325 8210 1325
 Connection ~ 8210 1325
 Wire Wire Line
-	8210 1325 8405 1325
-Wire Wire Line
 	6650 2295 6650 2395
 $Comp
 L Connector_Generic:Conn_01x08 J4
@@ -1661,4 +1659,10 @@ Text Notes 6680 825  0    197  ~ 39
 POWER
 Wire Bus Line
 	8890 3540 8890 470 
+Wire Wire Line
+	8405 1400 8405 1325
+Wire Wire Line
+	8210 1325 8405 1325
+Wire Wire Line
+	8405 1655 8405 1600
 $EndSCHEMATC
